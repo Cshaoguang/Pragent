@@ -178,38 +178,13 @@ flowchart LR
 
 示例（将文件名替换为你的真实截图）：
 
-![聊天首页](images/chat-home.png)
-![管理后台](images/admin-dashboard.png)
-![意图树配置](images/intent-tree.png)
+![首页](images/首页.jpg)
+![对话页](images/对话页.jpg)
+![管理后台](images/管理后台页.jpg)
 
 如果你希望控制图片宽度，可以使用 HTML 写法：
 
 <img src="images/chat-home.png" alt="聊天首页" width="900" />
-
-## 如何在仓库首页插入图片
-
-仓库首页展示内容就是根目录 `README.md`。插图有两种常见方式：
-
-1. 使用仓库内相对路径（推荐）
-
-```markdown
-![说明文字](images/your-image.png)
-```
-
-优点：仓库迁移或改名后一般不受影响。
-
-2. 使用外链 URL
-
-```markdown
-![说明文字](https://your-cdn-or-image-url)
-```
-
-优点：可复用现有图床；缺点：外链失效会导致图片不显示。
-
-建议：
-- 图片尽量使用 png/webp，单张控制在 1~2MB 以内。
-- 文件名使用英文和短横线，如 `chat-home.png`。
-- 首页优先放 2~4 张关键页面图，避免过长。
 
 ## 开发路线图
 
@@ -225,12 +200,6 @@ flowchart LR
 2. 提交前确保前端可构建、后端可启动。
 3. 提交信息建议使用动词开头（例如 `fix:`, `feat:`, `refactor:`）。
 4. 提交 PR 时描述变更动机、影响范围和验证方式。
-
-## 安全说明
-
-- `.env` 仅用于本地或私有部署环境，不应提交到公开仓库。
-- 推荐在 GitHub 仓库启用 Secret Scanning 与 Push Protection。
-- 若曾误提交敏感信息，请立即轮换相关密钥。
 
 ## License
 
